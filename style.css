@@ -83,7 +83,7 @@ button {
     padding: 10px 30px;
     border-radius: 10px;
     border-style: none;
-    width: 125px;
+    width: 140px;
 }
 
 .main-image {
@@ -128,13 +128,17 @@ button {
 }
 
 .item img {
-    height: 150px;
+    height: 220px;
     width: 150px;
     border-style: solid;
     border-color: #3882f6;
     border-radius: 15px;
     object-fit: cover;
-    object-position: 0% 0;
+    object-position: 45% 0;
+}
+
+.item.item-three img {
+    object-position: 80% 0%;
 }
 
 .three {
